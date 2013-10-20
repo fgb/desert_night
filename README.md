@@ -5,7 +5,7 @@ Desert Night Color Scheme
 =========================
 
 Dark Sublime Text color scheme inspired by Hans Fugal's fantastic
-[Vim Desert color scheme](http://www.vim.org/scripts/script.php?script_id=105)
+[Vim Desert color scheme](http://www.vim.org/scripts/script.php?script_id=105).
 
 ## Installation
 

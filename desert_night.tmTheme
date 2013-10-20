@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Fernando L. Garcia Bermudez</string>
+	<key>name</key>
+	<string>Desert Night</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#333333</string>
+				<key>caret</key>
+				<string>#AD5C5C</string>
+				<key>foreground</key>
+				<string>#BEBEBE</string>
+				<key>lineHighlight</key>
+				<string>#404040</string>
+				<key>selection</key>
+				<string>#1A1A1A9C</string>
+				<key>gutterForeground</key>
+				<string>#555555</string>
+				<key>gutterBackground</key>
+				<string>#222222</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#607080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constants</string>
+			<key>scope</key>
+			<string>constant.numeric, constant.character, constant.other, support.constant, string, string.unquoted, string.quoted, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDA0A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language Keywords and Built-ins</string>
+			<key>scope</key>
+			<string>keyword, support.function, constant.language, support.constant.core</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FBC8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language Control Keyword</string>
+			<key>scope</key>
+			<string>keyword.control, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AD5C5C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999292</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage Types</string>
+			<key>scope</key>
+			<string>storage.type, storage.modifier, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+	        <key>name</key>
+	        <string>Tags</string>
+	        <key>scope</key>
+	        <string>entity.name.tag, punctuation.definition.tag</string>
+	        <key>settings</key>
+	        <dict>
+	            <key>foreground</key>
+	            <string>#696969</string>
+	        </dict>
+	    </dict>
+	</array>
+</dict>
+</plist>
