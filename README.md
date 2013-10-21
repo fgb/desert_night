@@ -1,21 +1,20 @@
 This work is licensed under a [Creative Commons Attribution 3.0
 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-Desert Night Color Scheme
--------------------------
+## Desert Night Color Scheme
 
-Dark Sublime Text color scheme inspired by Hans Fugal's [desert.vim](http://www.vim.org/scripts/script.php?script_id=105).
+Dark Sublime Text color scheme inspired by Hans Fugal's
+[desert.vim](http://www.vim.org/scripts/script.php?script_id=105).
 
-![Desert Night color scheme screenshot](screenshot.png)
+![desert_night color scheme screenshot](screenshot.png)
 
 ### Installation
 
-[Package Control](http://wbond.net/sublime_packages/package_control):
-Search for "Desert Night Color Scheme".
-
-Manual: Copy __desert_night.tmTheme__ into a folder inside the
-__Packages/__ directory of Sublime Text and choose the color scheme using the
-__Preferences/Color Scheme__ menu.
+Using [package control](http://wbond.net/sublime_packages/package_control),
+search for *Desert Night Color Scheme* **OR** manually copy
+*desert_night.tmTheme* to a folder inside the *Packages/* directory of
+Sublime Text and choose the color scheme using the *Preferences/Color Scheme*
+menu.
 
 ### Feedback
 
