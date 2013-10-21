@@ -11,7 +11,7 @@ Dark Sublime Text color scheme inspired by Hans Fugal's
 ### Installation
 
 Search for *Desert Night Color Scheme* in
-[package control](http://wbond.net/sublime_packages/package_control), **OR**
+[package control](http://wbond.net/sublime_packages/package_control) **OR**
 manually copy *desert_night.tmTheme* to a folder inside the *Packages/*
 directory of Sublime Text and choose the color scheme using the
 *Preferences/Color Scheme* menu.
