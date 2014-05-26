@@ -12,12 +12,10 @@ Dark Sublime Text color scheme inspired by Hans Fugal's [desert.vim]
 
 ### Installation
 
-- Search for _Desert Night Color Scheme_ in [package control]
-  (http://wbond.net/sublime_packages/package_control),
-**OR**
-- Copy _desert_night.tmTheme_ to a folder inside the _Packages/_ directory,
-**AND**
-- Finally, activate it from the _Preferences/Color Scheme_ menu.
+Search for _Desert Night Color Scheme_ in [package control]
+(http://wbond.net/sublime_packages/package_control),
+(or copy _desert_night.tmTheme_ to a folder inside the _Packages/_ directory)
+and activate it from the _Preferences/Color Scheme_ menu.
 
 ### Feedback
 
