@@ -9,7 +9,7 @@ Dark Sublime Text color scheme inspired by Hans Fugal's [desert.vim]
 ![desert_night color scheme screenshot](screenshot.png)
 
 **Note:** Code snippet from Christoph Gohlke's [transformations.py]
-(http://www.lfd.uci.edu/~gohlke/code/transformations.py.html).
+(http://www.lfd.uci.edu/~gohlke/code/transformations.py).
 
 ### Installation
 
@@ -20,5 +20,5 @@ and activate it from the _Preferences/Color Scheme_ menu.
 
 ### Feedback
 
-If you find any bugs or have suggestions for improvement, feel free to create
+If you find any bugs or have suggestions for improvement, please create
 an issue or send me a pull request!

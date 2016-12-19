@@ -20,7 +20,37 @@
         <key>lineHighlight</key>
         <string>#404040</string>
         <key>selection</key>
-        <string>#1A1A1A9C</string>
+        <string>#1A1A1AAA</string>
+        <key>selectionBorder</key>
+        <string>#222222</string>
+        <key>inactiveSelection</key>
+        <string>#1A1A1A66</string>
+        <key>highlight</key>
+        <string>#FFBB9166</string>
+        <key>highlightForeground</key>
+        <string></string>
+        <key>findHighlight</key>
+        <string>#FFBB91</string>
+        <key>findHighlightForeground</key>
+        <string>#000000</string>
+        <key>guide</key>
+        <string>#FFFFFF11</string>
+        <key>activeGuide</key>
+        <string>#FFFFFF66</string>
+        <key>stackGuide</key>
+        <string>#FFFFFF22</string>
+        <key>bracketsForeground</key>
+        <string>#F88D57</string>
+        <key>bracketsOptions</key>
+        <string>underline</string>
+        <key>bracketContentsForeground</key>
+        <string>#F88D57</string>
+        <key>bracketContentsOptions</key>
+        <string>underline</string>
+        <key>tagsForeground</key>
+        <string>#F88D57CC</string>
+        <key>tagsOptions</key>
+        <string>stippled_underline</string>
         <key>gutter</key>
         <string>#222222</string>
         <key>gutterForeground</key>
@@ -42,33 +72,44 @@
       <key>name</key>
       <string>Constants</string>
       <key>scope</key>
-      <string>constant.numeric, constant.character, constant.other, support.constant, string, string.unquoted, string.quoted, punctuation.definition.string</string>
+      <string>constant, string, entity.name.constant</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#DDA0A0</string>
+        <string>#AD8787</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>Language Keywords and Built-ins</string>
+      <string>String special characters</string>
       <key>scope</key>
-      <string>keyword, support.function, constant.language, support.constant.core</string>
+      <string>constant.character.escape, constant.other.placeholder, punctuation.definition.string</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8FBC8F</string>
+        <string>#AD8787AA</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>Language Control Keyword</string>
+      <string>Language built-ins</string>
       <key>scope</key>
-      <string>keyword.control, entity.other.attribute-name</string>
+      <string>support, variable.language, constant.language</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#AD5C5C</string>
+        <string>#A8ACCB</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Control keywords</string>
+      <key>scope</key>
+      <string>keyword.control</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C88282CC</string>
       </dict>
     </dict>
     <dict>
@@ -79,27 +120,104 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#999292</string>
+        <string>#888888</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>Storage Types</string>
+      <string>Punctuation</string>
       <key>scope</key>
-      <string>storage.type, storage.modifier, support.type</string>
+      <string>punctuation.accessor, punctuation.separator, punctuation.separator.continuation, punctuation.terminator, punctuation.definition.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#888888</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage</string>
+      <key>scope</key>
+      <string>storage</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
-        <string>#CCCCCC</string>
+        <string>#BEBEBE</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Namespaces</string>
+      <key>scope</key>
+      <string>entity.name.namespace</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#888888</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Classes</string>
+      <key>scope</key>
+      <string>entity.name, entity.other.inherited-class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#95B7BFDD</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Class members</string>
+      <key>scope</key>
+      <string>variable.other</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#95B7BFAA</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function declarations/definitions</string>
+      <key>scope</key>
+      <string>entity.name.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D3E0A6CF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function calls</string>
+      <key>scope</key>
+      <string>variable.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D3E0A699</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function arguments</string>
+      <key>scope</key>
+      <string>variable.parameter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D3E0A666</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Tags</string>
       <key>scope</key>
-      <string>entity.name.tag, punctuation.definition.tag</string>
+      <string>entity.name.tag</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -108,13 +226,24 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>diff.deleted</string>
+      <string>Tag attribute</string>
       <key>scope</key>
-      <string>markup.deleted</string>
+      <string>entity.other.attribute-name</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#997676</string>
+        <string>#F88D5799</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#EE3232</string>
       </dict>
     </dict>
     <dict>
@@ -137,6 +266,17 @@
       <dict>
         <key>foreground</key>
         <string>#877699</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.deleted</string>
+      <key>scope</key>
+      <string>markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#997676</string>
       </dict>
     </dict>
   </array>
